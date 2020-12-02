@@ -1,7 +1,7 @@
 import os
 import sys
 
-import functions
+import functions as func
 
 print (f'version -> {sys.version}')
 print (f'version info -> {sys.version_info}')
@@ -30,4 +30,4 @@ print(sum)
 squares = [1, 4, 9, 16, 25]
 print(squares)
 
-functions.greetings()
+func.greetings()
