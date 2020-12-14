@@ -2,11 +2,16 @@
 Python learning playground    
 
 
-python3.8 src/main.py hello world     
+brew install python.   
+
+python3 src/main.py hello world     
 
 
 pip3 freeze > requirements.txt     
-pip3 install -r requirements.txt          
+pip3 install -r requirements.txt            
+
+
+python3 -m http.server     
 
 
 https://docs.python-guide.org/intro/learning/        
