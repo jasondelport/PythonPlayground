@@ -98,10 +98,18 @@ the Python pass statement is surprisingly useful.
 
 # handling json files
 f = open('test.json',)
-data = json.load(f)
+data = json.load(f) # parse JSON from URL or file
 print(data)
 print(data['attribute'])
+print(data['object'])
 print(data['object']['attribute0'])
+print(data['list'])
 print(data['list'][0]['attribute1'])
 f.close()
 
+json_str = """{
+    "attribute": "value"
+}
+"""
+data_loads = json.loads(json_str) # parse JSON from a string
+print(data_loads)
