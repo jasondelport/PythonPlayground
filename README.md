@@ -18,10 +18,17 @@ run script
 * python3 src/main.py hello world     
 
 pip3    
-* pip3 freeze > requirements.txt     
-* pip3 install -r requirements.txt            
+* pip3 --version    
+* pip3 list
+* pip3 freeze > requirements.txt (saves installed libs to requirements.txt file)      
+* pip3 install -r requirements.txt          
+* pip3 install package_name      
+* pip3 install package_name --upgrade    
+* pip3 show package_name 
+* pip3 search <search_term>
+* python3 -m pip install --upgrade pip    
 
-run a server     
+run a server in a local mac directory     
 * python3 -m http.server     
 
 
