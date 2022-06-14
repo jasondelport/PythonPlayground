@@ -1,3 +1,4 @@
+import json
 import os
 import platform
 import sys
@@ -94,3 +95,13 @@ This statement doesn’t do anything: it’s discarded during the
 byte-compile phase. But for a statement that does nothing, 
 the Python pass statement is surprisingly useful.
 """
+
+# handling json files
+f = open('test.json',)
+data = json.load(f)
+print(data)
+print(data['attribute'])
+print(data['object']['attribute0'])
+print(data['list'][0]['attribute1'])
+f.close()
+
