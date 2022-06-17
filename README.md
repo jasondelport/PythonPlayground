@@ -34,3 +34,4 @@ run a server in a local mac directory
 
 https://docs.python-guide.org/intro/learning/        
 https://book.pythontips.com/en/latest/args_and_kwargs.html      
+https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/
