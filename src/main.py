@@ -4,6 +4,8 @@ import platform
 import sys
 
 import functions as func
+import get_logging as log
+import http_client as http
 from rectangle import Rectangle
 
 print (f'version -> {sys.version}')
@@ -74,3 +76,7 @@ def area(length: int, width: int):
 area_func = globals()["area"]
 
 area_func(5, 5)
+
+http.doConnect()
+
+log.doLogging()

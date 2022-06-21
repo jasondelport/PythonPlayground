@@ -99,6 +99,18 @@ def files():
     with open('test.txt') as f: # no close() needed
         print(f.read())
 
+    # Echo the contents of a text file
+    f = open('test.txt', 'rt', encoding='utf-8')
+    for line in f:   ## iterates over the lines of the file
+        print(line, end='')    ## end='' so print does not add an end-of-line char
+                            ## since 'line' already includes the end-of-line.
+    f.close()
+
+    with open('test.txt', 'rt', encoding='utf-8') as f:
+        for line in f:
+            print(line) # line is a *unicode* string
+
+
 def errors():
     # handling errors
     try:
