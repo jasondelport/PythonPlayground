@@ -12,8 +12,9 @@ print (f'version -> {sys.version}')
 print (f'version info -> {sys.version_info}')
 print (f'path -> {sys.path}')
 print (f'cwd -> {os.getcwd()}')
-
+print (f'arguments -> {str(sys.argv)}')
 print ('Python', platform.python_version())
+print('__name__: ', __name__)
 
 # this python 2 code breaks in python -> print "Hello, Python!"
 print ("Hello, Python!")
@@ -26,7 +27,7 @@ print(f'Hello {name}!')
 #    print(f'{k} -> {v}')
 
 # arguments passed in at the command line, seperated by spaces
-print (f'arguments -> {str(sys.argv)}')
+
 
 x = 3              # a whole number                   
 f = 3.1415926      # a floating point number              

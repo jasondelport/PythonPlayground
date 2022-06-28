@@ -31,6 +31,15 @@ pip3
 run a server in a local mac directory     
 * python3 -m http.server     
 
+flask    
+* mkdir webserver    
+* cd webserver      
+* python3 -m venv venv // lightweight “virtual environments”     
+* . venv/bin/activate    
+* export FLASK_ENV=development     
+* export FLASK_APP=hello // if file named hello.py    
+* // As a shortcut, if the file is named app.py or wsgi.py, you don’t have to set the FLASK_APP environment variable.    
+* flask run    
 
 https://docs.python-guide.org/intro/learning/        
 https://book.pythontips.com/en/latest/args_and_kwargs.html      
