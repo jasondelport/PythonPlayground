@@ -41,6 +41,8 @@ flask
 * // As a shortcut, if the file is named app.py or wsgi.py, you don’t have to set the FLASK_APP environment variable.    
 * flask run    
 
-https://docs.python-guide.org/intro/learning/        
-https://book.pythontips.com/en/latest/args_and_kwargs.html      
-https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/
+https://docs.python-guide.org/intro/learning/         
+https://book.pythontips.com/en/latest/args_and_kwargs.html       
+https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/    
+
+https://stackabuse.com/introduction-to-pythons-collections-module/    

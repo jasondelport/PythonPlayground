@@ -3,6 +3,7 @@ import os
 import platform
 import sys
 
+import collections_module as coll_mod
 import functions as func
 import get_logging as log
 import http_client as http
@@ -81,3 +82,5 @@ area_func(5, 5)
 http.doConnect()
 
 log.doLogging()
+
+coll_mod.collections_mod()
